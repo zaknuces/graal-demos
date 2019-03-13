@@ -1,3 +1,2 @@
-javac NotificationServer.java
-
-node --jvm --experimental-worker NotificationReceiver.js 
+docker build -t notification-api .
+docker run -it notification-api

@@ -1,3 +1,2 @@
-node --jvm factorial.js
-
-node --jvm factorial-Polyglot.js
+docker build -t factorial .
+docker run -it factorial
